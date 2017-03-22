@@ -12,3 +12,11 @@ CREATE TABLE `file` (
   `dt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+
+set mysql configuration:
+change this variable in db.java class
+```java
+DB_URL="";
+USER="";
+PASS="";
+```
